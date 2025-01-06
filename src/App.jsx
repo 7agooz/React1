@@ -14,7 +14,7 @@ import Error from './Components/Error/Error'
 function App() {
   const router = createHashRouter([
     {path: '', element: <Layout/>, children: [  
-      {path: '', element: <Home/>},
+      {index: true, element: <Home/>},
       {path: 'home', element: <Home/>},
       {path: 'about', element: <About/>},
       {path: 'portfolio', element: <Portfolio/>},
