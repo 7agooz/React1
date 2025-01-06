@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../../assets/logo.svg'
 
 export default function Home() {
+  document.title = 'Home'
   return (
     <div className='vh-100 my-bg d-flex justify-content-center align-items-center flex-column head'>
       <div className="image text-center">

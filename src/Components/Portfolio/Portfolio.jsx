@@ -7,6 +7,7 @@ import Modal from '../Modal/Modal';
 const pics = [pic1, pic2, pic3, pic1, pic2, pic3];
 
 export default function Portfolio() {
+  document.title = 'Portfolio';
   const [selectedPic, setSelectedPic] = useState(0);
 
   const handleImageClick = (pic) => {

@@ -1,6 +1,7 @@
 import React from 'react'
 
 export default function Contact() {
+  document.title = 'Contact'  
   return (<>
     <div className='vh-100  head2 container  '>
       <div className="text-center flex-column">

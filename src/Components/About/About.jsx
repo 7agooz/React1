@@ -1,6 +1,7 @@
 import React from 'react'
 
 export default function About() {
+  document.title = 'About'
   return (
     <div className='vh-100 my-bg d-flex justify-content-center align-items-center flex-column head text-white'>
       <h2 className='fw-bolder'>ABOUT COMPONENT</h2>
