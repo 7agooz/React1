@@ -4,7 +4,7 @@ import { Link, Outlet } from 'react-router-dom';
 export default function Navbar() {
   return (
     <>
-    <nav className="navbar navbar-expand-lg layout-color  w-100">
+    <nav className="navbar navbar-expand-lg layout-color fixed-top  w-100">
   <div className="container p-4">
     <Link className="navbar-brand text-white fw-bolder fs-2" to="/home">START FRAMEWORK</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
