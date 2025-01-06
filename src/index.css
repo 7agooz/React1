@@ -1,0 +1,74 @@
+.layout-color{
+    background-color: #2C3E50;
+    color: white ;  
+}
+.my-bg{
+    background-color: #1ABC9C;
+}
+.head span{
+    position: relative;
+    font-size: 20px;
+}
+.head span::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -111px;
+    background-color: white;
+    width: 100px;
+    height: 5px;
+}
+.head span::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -111px;
+    background-color: white;
+    width: 100px;
+    height: 5px;
+}
+.head2 span{
+    position: relative;
+    font-size: 20px;
+}
+.head2 span::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -111px;
+    background-color: #2C3E50;
+    width: 100px;
+    height: 5px;
+}
+.head2 span::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -111px;
+    background-color: #2C3E50;
+    width: 100px;
+    height: 5px;
+}
+
+.btn{
+    background-color: #1ABC9C !important;
+    border-color: #1ABC9C !important;
+}
+
+.layer{
+    background-color: #29B197;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.port:hover .layer{
+    opacity: 0.8;
+}
+.port{
+    cursor: pointer;
+}
+.modal{
+    top: 0;
+    left:0;
+}
