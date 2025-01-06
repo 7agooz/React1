@@ -17,9 +17,9 @@ export default function Portfolio() {
   return (
     <>
       {selectedPic && <Modal image={selectedPic} onClose={() => setSelectedPic(0)} />}
-      <div className="container">
+      <div className="container pt-5">
         <div className="text-center flex-column head2">
-          <h2 className="fw-bolder h1">CONTACT SECTION</h2>
+          <h2 className="fw-bolder h1">PORTFOLIO SECTION</h2>
           <span>
             <i className="fa-solid fa-star"></i>
           </span>

@@ -3,7 +3,7 @@ import React from 'react'
 export default function Contact() {
   document.title = 'Contact'  
   return (<>
-    <div className='vh-100  head2 container  '>
+    <div className='vh-100 pt-5 head2 container  '>
       <div className="text-center flex-column">
      <h2 className='fw-bolder h1'>CONATCT SECTION</h2> 
      <span> <i className="fa-solid fa-star "></i></span>
